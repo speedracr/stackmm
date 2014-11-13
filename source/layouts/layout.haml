@@ -1,0 +1,42 @@
+!!! 5
+%html
+  %head
+    %title= data.page.title
+    %meta{charset: "utf-8"}
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    = stylesheet_link_tag "styles.css"
+    = javascript_include_tag "scripts.js"
+    <!--[if lt IE 9]>
+    / <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    / <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    %script(src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js")  
+    %script(src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js")  
+    <![endif]-->    
+    <meta property="og:url" content="http://stackademy.com/"/>
+    <meta property="og:title" content="Learn to code in Berlin | Stackademy"/>
+    <link rel="image_src" href="//stackademy.com/img/ogp.png">
+    <meta property="og:image" content="//stackademy.com/img/ogp.png"/>
+    <meta property="og:type" content="website"/>
+    <meta name="description" content="Full-time intense courses in Berlin, taught by experienced developers and designed to get you building great apps."/>
+    <meta property="og:description" content="Full-time intense courses, Ruby on Rails bootcamp style in Berlin, taught by experienced developers and designed to get you building great apps.
+    Apply now for Web Application Development Fall 2014 and learn to plan, develop and deploy applications using Ruby on Rails."/>
+
+
+
+
+
+    <script type="text/javascript">
+    window.twttr = (function (d, s, id) {var t, js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; 
+    js.src= "https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });}(document, "script", "twitter-wjs"));
+    </script>
+
+  %body= yield
+
+
+  / %script(src="js/jquery.min.js")  
+  / %script(src="js/bootstrap.min.js")  
+  / %script(src="js/scripts.js")  
+  / %script(src="https://code.jquery.com/jquery-2.1.1.min.js")
+  / %script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js")
+

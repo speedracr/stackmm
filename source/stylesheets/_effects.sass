@@ -1,0 +1,86 @@
+// General styling
+.borderbottom
+  border-bottom:        1px solid
+
+.borderwhite
+  border-color:         $white
+
+.borderdark
+  border-color:         $gray-darker
+
+// Animation and transitions
+$transition1:            all 0.2s linear
+$transition2:            all 0.2s ease-in-out
+$transition3:            all 0.15s
+$transition_none:        all 0s
+
+=transition($transition)
+  -webkit-transition: $transition
+  -moz-transition: $transition
+  -o-transition: $transition
+  transition: $transition
+
+
+// Shadows
+$glow_white:      0 0 4px rgba(255, 255, 255, 0.8)
+$blackoutline:    0 0 2px rgba(0, 0, 0, 0.6)
+$shadow1:         0 0 10px rgba(0,0,0,1.0)
+
+=box-shadow($shadow)
+  -moz-box-shadow: $shadow
+  -webkit-box-shadow: $shadow
+  box-shadow: $shadow
+
+=gradientbackground($color1, $color2)
+  background-image: -webkit-linear-gradient(to bottom,$color1,$color2)
+  background-image: -moz-linear-gradient(to bottom,$color1,$color2)
+  background-image: -ms-linear-gradient(to bottom,$color1,$color2)
+  background-image: -o-linear-gradient(to bottom,$color1,$color2)
+  background-image: linear-gradient(to bottom,$color1,$color2)
+
+$astop1:          0%
+$bstop2:          20%
+$astop2:          25%
+$astop3:          65%
+$astop4:          75%
+$astop5:          100%
+
+$acolor1:         rgba(0,0,0,0)
+$acolor2:         rgba(0,0,0,0.7)
+$acolor3:         rgba(0,0,0,0.8)
+$acolor4:         rgba(0,0,0,1)
+
+=gradientbackgroundbottom($stop1, $stop2, $stopb2, $stop3, $stop4, $stop5, $color1, $color2, $color3, $color4)
+  // use with bottom: 0, position: absolute, z-index: [on top] for wrapper-div to align with bottom >> rookie.com
+  background: -webkit-linear-gradient(top, $color1 $stop1, $color1 $stop2, $color2 $stop3, $color3 $stop4, $color4 $stop5), -webkit-linear-gradient(top, $color3 $stop1, $color4 $stopb2)
+  background: -o-linear-gradient(top, $color1 $stop1, $color1 $stop2, $color2 $stop3, $color3 $stop4, $color4 $astop5), -o-linear-gradient(top, $color3 $stop1, $color4 $stopb2)  
+  background: -ms-linear-gradient(top, $color1 $stop1, $color1 $stop2, $color2 $stop3, $color3 $stop4, $color4 $stop5), -ms-linear-gradient(top, $color3 $stop1, $color4 $stopb2)
+  background: linear-gradient(to bottom, $color1 $stop1, $color1 $stop2, $color2 $stop3, $color3 $stop4, $color4 $stop5), linear-gradient(to bottom, $color3 $stop1, $color4 $stopb2)
+
+// Mixin for link effect
+=linkhover
+  background:       ($brand-primary, 13.5%)
+  color:            $white
+
+=linkpadding
+  padding:          2px 4px
+  border-radius:    2px
+
+// Selection color
+=selection($color)
+  ::selection
+    background: $color
+
+  ::-moz-selection
+    background: $color
+
+  ::-webkit-selection
+    background: $color
+
+// Image grayscale effect
+=grayscale($value)
+  -webkit-filter  : grayscale($value) 
+  -moz-filter     : grayscale($value)
+  -ms-filter      : grayscale($value)
+  -o-filter       : grayscale($value)
+  filter          : grayscale($value)
