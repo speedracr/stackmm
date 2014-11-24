@@ -78,13 +78,23 @@
       }
 
       input.btn {
-        margin-top:   1em;
+        margin-top:   1.2em;
         font-size: 1.0em;
+        margin-bottom: 2em;
       }
 
       .glyphicon {
         margin-right: 8px;
         color: green;
+      }
+
+      .processing-notice {
+        font-style: italic;
+        margin-top: 1em;
+      }
+
+      .scholarship_false {
+        display: none;
       }
 
 
@@ -94,6 +104,16 @@
     <form action="https://docs.google.com/forms/d/1r704q38TzFPc-hThRFSuttaDlJUJQ8pxEmF22hPvhDA/formResponse" method="POST" id="ss-form" target="_self" onsubmit=""><ol role="list" class="ss-question-list" style="padding-left: 0" target="hidden_iframe" onsubmit="submitted=true;">
 
     <div class="form-column">
+
+    <!-- hidden identifier field to match applicant -->
+    <div class="ss-form-question errorbox-good" role="listitem">
+    <div dir="ltr" class="ss-item  ss-text"><div class="ss-form-entry">
+    <div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
+    <input type="hidden" name="entry.32811180" value="insert_participant_id" class="ss-q-short" id="entry_32811180" dir="auto" aria-label="identifier  " title="">
+    <div class="error-message" id="2008572156_errorMessage"></div>
+    <div class="required-message">This is a required question</div>
+    </div></div></div>
+
     <div class="ss-form-question errorbox-good" role="listitem">
     <div dir="ltr" class="ss-item  ss-text"><div class="ss-form-entry">
     <label class="ss-q-item-label" for="entry_631248963"><div class="ss-q-title">First name
@@ -161,7 +181,9 @@
     <input type="text" name="entry.1114578474" value="" class="ss-q-short" id="entry_1114578474" dir="auto" aria-label="Country  " aria-required="true" required="" title="">
     <div class="error-message" id="1073041618_errorMessage"></div>
     <div class="required-message">This is a required question</div>
-    </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+    </div></div></div> 
+
+    <div class="ss-form-question errorbox-good scholarship_false" role="listitem">
     <div dir="ltr" class="ss-item  ss-checkbox"><div class="ss-form-entry">
     <label class="ss-q-item-label" for="entry_2118209182"><div class="ss-q-title">Partial scholarship
     </div>
@@ -180,14 +202,17 @@
     <span class="ss-choice-label">Payment in full: EUR 5,950.- (earlybird)</span>
     </label></li> <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.697153957" value="Payment plan" id="group_697153957_2" role="radio" class="ss-q-radio" aria-label="Payment plan"></span>
     <span class="ss-choice-label">Payment plan: EUR 1,000.- and three installments of EUR 1,717.17 each</span>
-    </label></li></ul>
+    </label></li>
+    <div class="processing-notice">This form is processed through Google Forms and will redirect when data is submitted.</div>
+    </ul>
 
     <hr>
 
     <input type="hidden" name="fbzx" value="6744227192847149857">
-    <p>This form is processed through Google Forms. <br> By signing up, you allow us to store your information as per our privacy policy. <br>We never share your information with third parties.</p>
+    <p>By signing up, you allow us to store your information as per our privacy policy. <br>We never share your information with third parties.</p>
 
-    <div class="ss-item ss-navigate"><table id="navigation-table"><tbody><tr><td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
+    <div class="ss-item ss-navigate"><table id="navigation-table"><tbody><tr>
+    <td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
     <div class="confirm"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><strong>I am signing up as a participant of the Stackademy Winter 2015 class.</strong></div>
     <input type="submit" name="submit" value="Confirm and submit via Google Forms" id="ss-submit" class="btn btn-primary jfk-button jfk-button-action "></td>
     </tr></tbody></table></div></ol></form>
