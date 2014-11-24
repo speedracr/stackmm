@@ -87,7 +87,7 @@ open work, w/ teaching assistant until 6.30p
   
 
 **Project phase**  
-*Weeks 10 and 11*  
+*Weeks 11 and 12*  
 
 - Personal projects  
 
