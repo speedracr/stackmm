@@ -10,16 +10,16 @@ Let’s code!
 ----
 
 #### Location
-Web Application Development takes place at [Betahaus](http://betahaus.com/berlin), one of Berlin’s best-known co-working spaces. Opened in 2008, Betahaus today ranges across four floors of a single building next to Moritzplatz in Berlin’s Kreuzberg district and is home to a broad range of startups, freelance workers and project teams. Betahaus includes a café that is open Monday to Saturday, and a range of small restaurants and shops are within walking distance.
+*Web Application Development* takes place at [Betahaus](http://betahaus.com/berlin), one of Berlin’s best-known co-working spaces. Opened in 2008, Betahaus today ranges across four floors of a single building next to Moritzplatz in Berlin’s Kreuzberg district and is home to a broad range of startups, freelance workers and project teams. Betahaus includes a café that is open Monday to Saturday, and a range of small restaurants and shops are within walking distance.
 
-**Public transport**
+**Public transport**  
 U Moritzplatz (U8 subway line and M29 metrobus)
 
 
 #### Schedule
 Web Application Development is a 12-week full-time course running from Monday to Friday. Our Winter 2015 program starts on Monday, January 12th and concludes on Friday, March 27th 2015.
 
-Daily structure
+*Daily structure*  
 The core time is 9am to ca. 5-6pm, Monday to Friday. You are welcome to stay longer to complete your work or prepare for upcoming lessons if you want, but note that Betahaus closes its open areas at 8pm.
 
 Every day, we will include mandatory interactive lessons of 2 – 2.5h to advance the course and provide you with new material and skills to apply. 
