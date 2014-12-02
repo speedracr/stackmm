@@ -1,16 +1,24 @@
+#signup
+  min-height:         420px
+
+#signup img
+  width:                  5em  
+
 #signup > .container > img.logo
   margin-top:         1.2em
-  margin-bottom:      2em
+  margin-bottom:      1em
 
-.redtest
-  color:            red
+#signup h3
+  text-align:         center
+  border-bottom:      2px solid $brand-primary
+  margin-top:         0.2em
+  padding-bottom:     0.2em
+  margin-bottom:      1em
 
-.nav-tabs > li > a
-  color:                    $gray
+.nav-tabs
+  border-bottom:             0!important
 
 .nav-tabs > li.active > a.signup
-  border:                 0!important
-  border-radius:          2px
   color:                  $white
   background-color:       $brand-primary
 
@@ -21,3 +29,11 @@
     color:                  $white
     background-color:       $brand-primary
 
+.nav-tabs > li > a
+  color:                  $gray
+  border:                 0!important
+  border-radius:          2px!important
+  +transition($transition1)
+
+.markdown h4
+  margin-top:             1.5em

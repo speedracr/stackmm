@@ -1,0 +1,13 @@
+students:
+- name: "Firstname Lastname"
+  url: "2pq7r-2"
+  rebateclass: "norebate"
+  baseprice: "5,950"
+- name: "Peter Three"
+  url: "3fff"
+  rebateclass: "rebate"
+  baseprice: "6,100"
+- name: "Peter Four"
+  url: "4ppp"
+  rebateclass: "rebate"
+  baseprice: "6,100"

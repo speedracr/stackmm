@@ -1,6 +1,6 @@
-//= require jquery
-//= require bootstrap
-//= require_tree .
+//= require jquery.min
+//= require jquery.form
+//= require bootstrap.min
 
 $(document).ready(function(){
   $('a[href=#top]').click(function(){

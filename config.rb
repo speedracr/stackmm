@@ -36,9 +36,9 @@
 # activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
-# configure :development do
-#   activate :livereload
-# end
+configure :development do
+  activate :livereload
+end
 
 # Methods defined in the helpers block are available in templates
 # helpers do
@@ -46,8 +46,16 @@
 #     "Helping"
 #   end
 # end
-sprockets.import_asset 'jquery'
+
+
+# ---
+# JDK modifications
+# sprockets.import_asset 'jquery'
 sprockets.import_asset 'bootstrap'
+set :relative_links, true
+activate :relative_assets
+# set :markdown_engine, :redcarpet
+# ---
 
 set :haml, :format => :html5
 
@@ -60,10 +68,10 @@ set :images_dir, 'images'
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
-  # activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
 
   # Enable cache buster
   # activate :asset_hash

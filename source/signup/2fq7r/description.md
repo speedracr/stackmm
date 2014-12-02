@@ -1,4 +1,4 @@
-### Hello!
+#### Hello!
 I look forward to a great course, teaching web application development in Berlin.
 This guide is meant to give you a summary of information for the course. As always, you can reach me at jonas@stackademy.com / +49 163 636 8374.
 
@@ -52,30 +52,43 @@ open work, w/ teaching assistant until 6.30p
 
 #### Roadmap
 
-*Introduction week*
-Basic web programming (Ruby, Sinatra framework)
- * Introduction to Rails programming
+**Introduction week**  
+*Basic web programming (Ruby, Sinatra framework)*
 
-*Phase 1*
-Weeks 2 and 3
- * Ruby programming and web integration - HTTP, JSON & XML, third-party API integration
- * Rails I - ActiveRecord, model-view-controller architecture, Rails Form helpers
+- Introduction to Rails programming
 
-*Phase 2*
-Weeks 4 and 5
- * JavaScript/ jQuery, test-driven development
- * Rails II - Routes and filters, cookies and sessions, asset pipeline
+**Phase 1**  
+*Weeks 2 and 3*
 
-*Phase 3*
-Weeks 6 and 7
- * Advanced Ruby on Rails development, introduction to SQL
- * Rails and frontend development - HTML5, frontend frameworks, JavaScript II
+- Ruby programming and web integration - HTTP, JSON & XML, third-party API integration  
+- Rails I - ActiveRecord, model-view-controller architecture, Rails Form helpers  
 
-*Wrap-up*
-Weeks 8 and 9
- * Class projects
- * Add-on modules, e.g. server deployment
 
-*Project phase*
-Weeks 10 and 11
- * Class project / personal project
+**Phase 2**  
+*Weeks 4 and 5*
+
+- JavaScript and jQuery
+- Rails II - Routes and filters, cookies and sessions, asset pipeline  
+  
+
+**Phase 3**  
+*Weeks 6, 7 and 8*  
+
+- Advanced Ruby on Rails development, introduction to SQL  
+- Rails and frontend development - HTML5, frontend frameworks, JavaScript II  
+- Introduction to test-driven development
+  
+
+**Finishing line**  
+*Weeks 9 and 10*  
+
+- Class project  
+- Add-on modules, e.g. server deployment  
+  
+
+**Project phase**  
+*Weeks 10 and 11*  
+
+- Personal projects  
+
+

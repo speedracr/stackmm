@@ -1,0 +1,44 @@
+---
+title: Signup information | Stackademy
+---
+
+%section#header
+  .container
+    = image_tag "stckst.svg", class: "logo", alt: "Stackademy"
+
+%section#signup
+  .container
+    %h3 Signup information
+    .row
+      .col-md-3
+        .nav-wrapper
+          %ul.nav.nav-tabs.nav-stacked.nav-noborder#myTab{:role => "tablist"}
+            %li.active{:role => "presentation"}
+              %a(href="#introduction" role="tab" data-toggle="tab" class="signup") Introduction
+            %li{:role => "presentation"}
+              %a(href="#terms" role="tab" data-toggle="tab" class="signup") The formal parts
+            %li{:role => "presentation"}
+              %a(href="#signupform" role="tab" data-toggle="tab" class="signup") Signup form
+            %li{:role => "presentation"}
+              %a(href="#resources" role="tab" data-toggle="tab" class="signup") Additional resources
+      .col-md-9   
+        .tab-content
+          .tab-pane.active#introduction{:role => "tabpanel"}
+            .markdown
+              = partial 'description.md'
+              .scrolltotop
+                %a{:href => "#top", :class => "toplink"} back to top
+          .tab-pane#terms{:role => "tabpanel"}
+            .markdown
+              = partial 'terms.md'
+              .scrolltotop
+                %a{:href => "#top", :class => "toplink"} back to top              
+          .tab-pane#signupform{:role => "tabpanel"}
+            Currently being updated.
+          .tab-pane#resources{:role => "tabpanel"}
+            .markdown
+              = partial 'resources.md'
+              .scrolltotop
+                %a{:href => "#top", :class => "toplink"} back to top              
+
+= partial 'footer'
