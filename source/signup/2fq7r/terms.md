@@ -7,22 +7,29 @@ We provide all required materials, software and services during the course and s
 **Payment**  
 When you register, we will send you the invoice for a non-refundable down payment of
 EUR 1,000.- (incl. 19% German VAT). Your registration becomes effective once we receive the down payment, at the latest 14 days in advance of the course. The remaining course fee is due as follows:
+  
+---
 
-
+##### EARLYBIRD RATES // Signup by Dec. 16, 2014 
 *Payment in full (total EUR 5,950.- incl. VAT)*  
 EUR 4,950.- incl. 19% German VAT  
 within the first week of the course
 
-
-*Payment plan (total EUR 5,950.- incl. VAT)*  
-EUR 1.650 incl. 19% VAT  
+*Payment plan (total EUR 6,150.- incl. VAT)*  
+3x EUR 1.717.- incl. 19% VAT  
 (1) within two weeks of start  
 (2) within 9 weeks after graduation  
-(3) within 18 weeks after graduation  
+(3) within 18 weeks after graduation 
 
+---  
+
+##### REGULAR RATES
+Both payment options increase by EUR 200.- for signups after Dec. 16, 2014
+  
+---
 
 **Cancellation policy**  
-Should you decide to discontinue the course, we will refund your tuition for uncompleted full weeks pro rata. At a minimum, however, we charge the amount of the down payment.
+Should you decide to discontinue the course, we will refund your tuition for uncompleted full weeks pro rata (e.g., in week 4: weeks 5-12 are uncompleted, resulting in a refund of 8/12 x EUR 5,950 = EUR 3,966.67 incl. tax). At a minimum, however, we charge the amount of the down payment. The payment plan schedule adjusts accordingly.
 
 
 **Recruiting program**  
