@@ -2,6 +2,8 @@
 title: Signup information | Stackademy
 ---
 
+- s = locals[:studentdata]
+
 %section#header
   .container
     = image_tag "stckst.svg", class: "logo", alt: "Stackademy"
@@ -9,6 +11,7 @@ title: Signup information | Stackademy
 %section#signup
   .container
     %h3 Signup information
+    %h3= s.short
     .row
       .col-md-3
         .nav-wrapper
@@ -25,21 +28,21 @@ title: Signup information | Stackademy
         .tab-content
           .tab-pane.active#introduction{:role => "tabpanel"}
             .markdown
-              = partial 'description.md'
+              = partial "/partials/description.md"
               .scrolltotop
                 %a{:href => "#top", :class => "toplink"} back to top
           .tab-pane#terms{:role => "tabpanel"}
             .markdown
-              = partial 'termstest.md'
+              = partial "/partials/#{s.short}.md"
               .scrolltotop
                 %a{:href => "#top", :class => "toplink"} back to top              
           .tab-pane#signupform{:role => "tabpanel"}
-            = partial 'formtemplate.html.erb'
+            = partial "/partials/formtemplate.html.erb"
             .scrolltotop
               %a{:href => "#top", :class => "toplink"} back to top                 
           .tab-pane#resources{:role => "tabpanel"}
             .markdown
-              = partial 'resources.md'
+              = partial '/partials/resources.md'
               .scrolltotop
                 %a{:href => "#top", :class => "toplink"} back to top              
 

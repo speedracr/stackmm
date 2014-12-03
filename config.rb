@@ -65,6 +65,16 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
+
+  # proxy "/testsignups/#{student[:url]}/index.html", "signup.haml", :layout => 'layouts/layout.haml', :locals => { :signupuser => student }, :ignore => true
+
+# ---
+# Dynamic pages by JDK
+data.students.each do |student|
+  proxy "/testsignups/#{student[:short]}/index.html", "/testsignups/template.html", :layout => 'layouts/layout.haml', :locals => { :studentdata => student }, :ignore => true
+end
+
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
