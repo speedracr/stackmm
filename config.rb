@@ -71,7 +71,7 @@ set :images_dir, 'images'
 # ---
 # Dynamic pages by JDK
 data.students.each do |student|
-  proxy "/testsignups/#{student[:short]}/index.html", "/testsignups/template.html", :layout => 'layouts/layout.haml', :locals => { :studentdata => student }, :ignore => true
+  proxy "/testsignups/#{student[:url]}/index.html", "/testsignups/template.html", :layout => 'layouts/layout.haml', :locals => { :studentdata => student }, :ignore => true
 end
 
 
