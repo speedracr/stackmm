@@ -16,7 +16,7 @@ EUR 4,800.- incl. 19% German VAT
 within the first week of the course
 
 *Payment plan (total EUR 5,950.- incl. VAT)*  
-3x EUR .- incl. 19% VAT  
+3x EUR 1.650- incl. 19% VAT  
 (1) within two weeks of start  
 (2) within 9 weeks after graduation  
 (3) within 18 weeks after graduation 

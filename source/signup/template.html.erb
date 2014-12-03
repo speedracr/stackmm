@@ -162,7 +162,7 @@ title: Signup information | Stackademy
                 <div class="ss-form-question errorbox-good" role="listitem">
                 <div dir="ltr" class="ss-item  ss-text"><div class="ss-form-entry">
                 <div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
-                <input type="hidden" name="entry.32811180" value="s.short" class="ss-q-short" id="entry_32811180" dir="auto" aria-label="identifier  " title="">
+                <input type="hidden" name="entry.32811180" value="<%= s.short %>" class="ss-q-short" id="entry_32811180" dir="auto" aria-label="identifier  " title="">
                 <div class="error-message" id="2008572156_errorMessage"></div>
                 <div class="required-message">This is a required question</div>
                 </div></div></div>
@@ -236,7 +236,7 @@ title: Signup information | Stackademy
                 <div class="required-message">This is a required question</div>
                 </div></div></div> 
 
-                <div class="ss-form-question errorbox-good sshp_false" role="listitem">
+                <div class="ss-form-question errorbox-good <%= s.rebateclass %>" role="listitem">
                 <div dir="ltr" class="ss-item  ss-checkbox"><div class="ss-form-entry">
                 <label class="ss-q-item-label" for="entry_2118209182"><div class="ss-q-title">Partial scholarship
                 </div>
@@ -254,9 +254,9 @@ title: Signup information | Stackademy
                 </div>
                 <div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
                 <ul class="ss-choices" role="radiogroup" aria-label="Payment"><li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.697153957" value="Payment in full" id="group_697153957_1" role="radio" class="ss-q-radio" aria-label="Payment in full"></span>
-                <span class="ss-choice-label">Payment in full: EUR 5,950.- (earlybird)</span>
+                <span class="ss-choice-label">Payment in full: EUR <%= s.fullamount %> (earlybird)</span>
                 </label></li> <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.697153957" value="Payment plan" id="group_697153957_2" role="radio" class="ss-q-radio" aria-label="Payment plan"></span>
-                <span class="ss-choice-label">Payment plan: EUR 1,000.- and three installments of EUR 1,717.- each (earlybird)</span>
+                <span class="ss-choice-label">Payment plan: EUR 1,000.- and three installments of EUR <%= s.installment %> each (earlybird)</span>
                 </label></li>
                 <div class="processing-notice">This form is processed through Google Forms and will redirect when data is submitted.</div>
                 </ul>

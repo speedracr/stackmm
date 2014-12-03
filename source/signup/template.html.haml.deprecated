@@ -36,7 +36,7 @@ title: Signup information | Stackademy
               .scrolltotop
                 %a{:href => "#top", :class => "toplink"} back to top              
           .tab-pane#signupform{:role => "tabpanel"}
-            = partial "/partials/formtemplate.html.erb"
+            = partial "/partials/form.html.erb"
             .scrolltotop
               %a{:href => "#top", :class => "toplink"} back to top                 
           .tab-pane#resources{:role => "tabpanel"}
