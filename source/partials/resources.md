@@ -4,8 +4,10 @@
 
 - [WG-Suche](https://www.wg-suche.de/)   
 - [WG-Gesucht](http://www.wg-gesucht.de/)   
-- [Berlinovo](http://www.berlinovo.de/en)  
-- [Exberliner Flat Rentals](http://www.exberlinerflatrentals.com/) (sometimes faster service via phone)  
+- [Nestpick - temporary rentals](https://www.nestpick.com/)  
+- [Berlinovo - temporary rentals](http://www.berlinovo.de/en)  
+- [SofortWohnen - temporary rentals](http://sofortwohnen.com/ ) Berlin launch announced  
+- [Exberliner Flat Rentals - furnished apartments](http://www.exberlinerflatrentals.com/) sometimes faster service via phone  
 - [Wimdu](http://www.wimdu.de/)  
 - [Airbnb](http://www.airbnb.com)
 - [9flats](http://www.9flats.com/)  

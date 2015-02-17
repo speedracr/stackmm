@@ -65,13 +65,12 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
-
-  # proxy "/testsignups/#{student[:url]}/index.html", "signup.haml", :layout => 'layouts/layout.haml', :locals => { :signupuser => student }, :ignore => true
+ignore 'signup-archive/*'
 
 # ---
 # Dynamic pages by JDK
 data.students.each do |student|
-  proxy "/signup/#{student[:url]}/index.html", "/signup/template.html", :layout => 'layouts/layout.haml', :locals => { :studentdata => student }, :ignore => true
+  proxy "/spring2015/#{student[:url]}/index.html", "/signup/template.html", :layout => 'layouts/layout.haml', :locals => { :studentdata => student }, :ignore => true
 end
 
 
